@@ -1,0 +1,65 @@
+<html>
+	<body>
+		<?php
+		/* WHILE LOOP
+			$fuel = 10;
+			
+			while($fuel>1)
+			{
+				echo "There is enough fuel!";
+				$fuel=$fuel-1;
+			}
+			*/
+		/* DO WHILE LOOP
+			$count =1;
+			do 
+				echo "$count time 12 is". $count*12 ."<br>";
+			while(++$count);
+			*/
+		/* FOR LOOP
+			for($count=1; $count<=12; ++$count)
+				echo "$count times 12 is" . $count*12 . "<br>";
+			*/
+		/* FOREACH LOOP	
+		$colors =array("red", "blue", "green");
+		foreach ($colors as $value)
+		{ echo "$value <br>" ;}
+		
+			*/
+		/* BREAK STATEMENTS
+			for ($x = 0; $x < 10; $x++)
+			{
+				if($x==4)
+				{
+					break;
+				}
+				echo "value of x is $x <br>" ;
+			}
+			*/
+		/*CONTINUE STATEMENT
+			for ($x = 0; $x < 10; $x++)
+			{
+				if($x==4)
+				{
+					continue;
+				}
+				echo "value of x is $x <br>" ;
+			}
+			*/
+			
+				/* DEMO 4 APPLICATION 1
+			for($x=0; $x<=10; $x++)
+			{
+				echo "Hello $x <br>";
+			}
+			*/
+			
+		// DEMO 4 APPLICATION 2
+			for($x=3; $x<10; $x++)
+			{
+				echo "$x <br>";
+			}
+		?>
+		
+	</body>
+</html>
